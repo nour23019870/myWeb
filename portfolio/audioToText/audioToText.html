@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class='no-js' >
+	
+	<head>
+		
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Audio to text</title>
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.transitions.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/style.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/color-default.css' >
+
+	</head>
+	
+	<body>
+		
+		
+		<!--close button-->
+		<a href='../../home.html' class='close-btn' >
+			<span></span>
+			<span></span>
+		</a>
+		<!--/close button-->
+		
+		
+		<!--preloader-->
+		<div id='preloader' >
+		
+			<div class='loader' >
+				<img src='../../img/load.gif' alt='LighT' >
+			</div>
+			
+		</div>
+		<!--/preloader-->
+		
+		
+		<div id='wrapper' >
+			
+			<section class='single-work' >
+				
+				<div class='container' >
+					
+					
+					<div class='row' >
+						
+						<div class='col-md-8' >
+							
+							<img src='audioToText.png' alt='LighT' >
+						
+						</div>
+						
+						
+						<div class='col-md-4' >
+							
+							<ul class='work-info' >
+								
+								<li>
+									
+									<h4><i class='ion-ionic' ></i>language</h4>
+									
+									<p> python </p>
+									
+								</li>
+								
+								<li>
+									
+									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
+									
+									<p>2024, March</p>
+									
+								</li>
+								
+								
+								
+								<li>
+									
+									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
+									
+									<p>11 min</p>
+									
+								</li>
+								
+								
+								
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+						
+						
+					</div>
+					
+					
+					<div class='work-content' >
+						
+						<div class='block' >
+							
+							<h4>Info</h4>
+							
+							<p>
+                                This project involves a Python script that converts speech from an audio file into text using the SpeechRecognition library. The script leverages Google's speech recognition API to transcribe the audio content accurately. This project is useful for transcribing lectures, meetings, interviews, and other audio recordings into written text, making the content more accessible and easier to review.
+							</p>
+							
+						</div>
+						
+						<div class='block row' >
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Challenge</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Accurate Speech Recognition: Achieving accurate transcription of speech from audio files can be challenging due to various factors such as background noise, accents, speech clarity, and audio quality. Ensuring high accuracy in diverse conditions is a key challenge.
+										</li>
+										<li>
+                                            Handling Audio File Loading and Processing: Loading audio files and processing them for speech recognition requires careful handling to ensure that the audio content is correctly captured and fed into the recognition system without data loss or corruption.
+										</li>
+										<li>
+                                            Managing API Limitations and Errors: Using an external API like Google's speech recognition service involves handling limitations such as rate limits, network issues, and potential errors from the service. Ensuring that the script can gracefully handle such issues without crashing is essential for robustness.
+										</li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Solution</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Using SpeechRecognition Library: The script utilizes the SpeechRecognition library, which provides a convenient and powerful interface for various speech recognition engines, including Google's speech recognition API. This library simplifies the process of capturing and transcribing audio.
+										</li>
+										<li>
+                                            Efficient Audio File Handling: The script uses the AudioFile class from the SpeechRecognition library to load and process the audio file. By using a context manager (with statement), the script ensures that the audio file is correctly opened, read, and closed, preventing resource leaks.
+										</li>
+										<li>
+											Error Handling and Robustness: The script includes error handling mechanisms to manage common issues that may arise during speech recognition. It catches UnknownValueError for unrecognized speech and RequestError for issues with the API request, providing informative messages to the user about the nature of the errors.
+										</li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				
+			</section>
+			
+			
+			<div class='footer bg-lightgray section-block' >
+					
+					<div class='container' >
+						
+						<div class='row' >
+							
+							<div class='col-xs-6 text-left' >
+								<h4>Nour Benzahra</h4>
+							</div>
+							
+							<div class='col-xs-6 text-right' >
+								<ul class='footer-social' >
+									<li>
+										<a href='https://www.facebook.com/profile.php?id=61552183670722' target="_blank" >
+											<i class='ion-social-facebook' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://x.com/n0ur_err/likes' target="_blank" >
+											<i class='ion-social-twitter' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.instagram.com/nour._err/' target="_blank" >
+											<i class='ion-social-instagram' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.youtube.com/channel/UC1WfdjykXObXAN3HfiH-w6Q' target="_blank" >
+											<i class='ion-social-youtube' ></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+						
+						
+					</div>
+					
+				</div>
+			
+			
+			
+		</div>
+		
+		<script src='../../js/jquery.min.js' ></script>
+		<script src='../../js/jquery.stellar.min.js' ></script>
+		<script src='../../js/modernizr.js' ></script>
+		<script src='../../js/owl.carousel.min.js' ></script>
+		<script src='../../js/jquery.shuffle.min.js' ></script>
+		<script src='../../js/jquery.magnific-popup.min.js' ></script>
+		<script src='../../js/validator.min.js' ></script>
+		<script src='../../js/smoothscroll.js' ></script>
+		<script src='../../js/script.js' ></script>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class='no-js' >
+	
+	<head>
+		
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Face recognation </title>
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.transitions.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/style.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/color-default.css' >
+
+	</head>
+	
+	<body>
+		
+		
+		<!--close button-->
+		<a href='../../home.html' class='close-btn' >
+			<span></span>
+			<span></span>
+		</a>
+		<!--/close button-->
+		
+		
+		<!--preloader-->
+		<div id='preloader' >
+		
+			<div class='loader' >
+				<img src='../../img/load.gif' alt='LighT' >
+			</div>
+			
+		</div>
+		<!--/preloader-->
+		
+		
+		<div id='wrapper' >
+			
+			<section class='single-work' >
+				
+				<div class='container' >
+					
+					
+					<div class='row' >
+						
+						<div class='col-md-8' >
+							
+							<img src='faceReco.jpeg' alt='LighT' >
+						
+						</div>
+						
+						
+						<div class='col-md-4' >
+							
+							<ul class='work-info' >
+								
+								<li>
+									
+									<h4><i class='ion-ionic' ></i>language</h4>
+									
+									<p> python </p>
+									
+								</li>
+								
+								<li>
+									
+									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
+									
+									<p>2023, February</p>
+									
+								</li>
+								
+								
+								
+								<li>
+									
+									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
+									
+									<p> 1 day </p>
+									
+								</li>
+								
+								
+								
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+						
+						
+					</div>
+					
+					
+					<div class='work-content' >
+						
+						<div class='block' >
+							
+							<h4>Info</h4>
+							
+							<p>
+                                This project involves a Python script that performs real-time face recognition using OpenCV. The script is designed to detect faces in a video feed from a webcam, recognize identified individuals using a pre-trained model, and display the recognition results on the screen. This project is particularly useful for security systems, access control, and personalized user experiences based on facial recognition.
+                            </p>
+							
+						</div>
+						
+						<div class='block row' >
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Challenge</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Face Detection Accuracy: Ensuring the face detection algorithm accurately identifies faces in various lighting conditions, angles, and distances is a significant challenge. The variability in real-world scenarios can affect the performance of the detection system.
+                                        	</li>
+										<li>
+                                            Real-Time Face Recognition: Achieving real-time performance while maintaining high accuracy in face recognition requires optimizing both the face detection and recognition processes. Balancing speed and accuracy is crucial for a seamless user experience.
+										</li>
+										<li>
+                                            Training and Recognizing Faces: Creating a robust and reliable model for face recognition involves gathering a sufficient amount of training data and correctly labeling it. Additionally, the recognition system must handle unknown faces gracefully without misidentifying them.
+										</li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Solution</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Utilizing Haar Cascades for Face Detection: The script uses OpenCV's Haar cascade classifier to detect faces in the video feed. This method is well-suited for real-time applications due to its efficiency and accuracy in detecting faces in various conditions.										
+                                        </li>
+										<li>
+                                            Implementing LBPH for Face Recognition: The script employs the Local Binary Patterns Histograms (LBPH) algorithm for face recognition, which is effective for recognizing faces even with variations in lighting and facial expressions. The pre-trained model is loaded to predict the identities of detected faces.										
+                                        </li>
+										<li>
+                                            Optimized Video Processing Loop: The script reads frames from the webcam, converts them to grayscale, and detects faces in real-time. For each detected face, it draws a rectangle around it and displays the predicted identity along with the confidence score. The video processing loop is optimized to ensure smooth performance, handling user inputs to terminate the program gracefully.										
+                                        </li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				
+			</section>
+			
+			
+			<div class='footer bg-lightgray section-block' >
+					
+					<div class='container' >
+						
+						<div class='row' >
+							
+							<div class='col-xs-6 text-left' >
+								<h4>Nour Benzahra</h4>
+							</div>
+							
+							<div class='col-xs-6 text-right' >
+								<ul class='footer-social' >
+									<li>
+										<a href='https://www.facebook.com/profile.php?id=61552183670722' target="_blank" >
+											<i class='ion-social-facebook' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://x.com/n0ur_err/likes' target="_blank" >
+											<i class='ion-social-twitter' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.instagram.com/nour._err/' target="_blank" >
+											<i class='ion-social-instagram' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.youtube.com/channel/UC1WfdjykXObXAN3HfiH-w6Q' target="_blank" >
+											<i class='ion-social-youtube' ></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+						
+						
+					</div>
+					
+				</div>
+			
+			
+			
+		</div>
+		
+		<script src='../../js/jquery.min.js' ></script>
+		<script src='../../js/jquery.stellar.min.js' ></script>
+		<script src='../../js/modernizr.js' ></script>
+		<script src='../../js/owl.carousel.min.js' ></script>
+		<script src='../../js/jquery.shuffle.min.js' ></script>
+		<script src='../../js/jquery.magnific-popup.min.js' ></script>
+		<script src='../../js/validator.min.js' ></script>
+		<script src='../../js/smoothscroll.js' ></script>
+		<script src='../../js/script.js' ></script>
+		
+	</body>
+	
+</html>
