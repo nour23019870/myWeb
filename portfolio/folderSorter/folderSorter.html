@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html class='no-js' >
+	
+	<head>
+		
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Folder sorter</title>
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/owl.transitions.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/style.css' >
+		<link rel='stylesheet' type='text/css' href='../../css/color-default.css' >
+
+	</head>
+	
+	<body>
+		
+		
+		<!--close button-->
+		<a href='../../home.html' class='close-btn' >
+			<span></span>
+			<span></span>
+		</a>
+		<!--/close button-->
+		
+		
+		<!--preloader-->
+		<div id='preloader' >
+		
+			<div class='loader' >
+				<img src='../../img/load.gif' alt='LighT' >
+			</div>
+			
+		</div>
+		<!--/preloader-->
+		
+		
+		<div id='wrapper' >
+			
+			<section class='single-work' >
+				
+				<div class='container' >
+					
+					
+					<div class='row' >
+						
+						<div class='col-md-8' >
+							
+							<img src='folder_sorter.jpeg' alt='LighT' >
+						
+						</div>
+						
+						
+						<div class='col-md-4' >
+							
+							<ul class='work-info' >
+								
+								<li>
+									
+									<h4><i class='ion-ionic' ></i>language</h4>
+									
+									<p> python </p>
+									
+								</li>
+								
+								<li>
+									
+									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
+									
+									<p>2023, November</p>
+									
+								</li>
+								
+								
+								
+								<li>
+									
+									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
+									
+									<p>7 min </p>
+									
+								</li>
+								
+								
+								
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+						
+						
+					</div>
+					
+					
+					<div class='work-content' >
+						
+						<div class='block' >
+							
+							<h4>Info</h4>
+							
+							<p>
+                                This project involves a Python script designed to organize files in a specified directory by moving them into categorized folders based on their file types. The script defines various file formats for documents, applications, videos, images, and archives, and moves files from the downloads directory to their respective destination folders. This project aims to automate the process of keeping the downloads folder tidy and organized, saving time and effort for the user.
+							</p>
+							
+						</div>
+						
+						<div class='block row' >
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Challenge</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Identifying and Categorizing File Types: Accurately identifying various file types and categorizing them correctly is essential for the script to function effectively. Handling a wide range of file formats and ensuring that each file is moved to the correct folder can be challenging.
+										</li>
+										<li>
+                                            Handling File Operations Safely: Performing file operations, such as moving files, needs to be done carefully to avoid data loss or errors. Ensuring that the script handles file paths correctly and deals with potential issues, such as missing files or permission errors, is crucial.
+										</li>
+										<li>
+                                            Creating and Managing Destination Folders: The script needs to create destination folders if they do not already exist and manage the file paths correctly. Ensuring that the folders are created with the correct permissions and are organized properly adds to the complexity.
+										</li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							<div class='col-md-6' >
+								
+								<h4>The Solution</h4>
+								
+								<p>
+									<ul>
+										<li>
+                                            Defining Comprehensive File Format Lists: The script defines comprehensive lists of file formats for different categories, including documents, applications, videos, images, and archives. This ensures that a wide range of file types is covered, and each file is categorized correctly.
+										</li>
+										<li>
+                                            Using os and glob Libraries for File Operations: The script leverages the os library for file and directory operations, such as creating folders and moving files. It uses the glob library to find files matching the specified patterns in the downloads directory. This combination allows for efficient and reliable file handling.
+										</li>
+										<li>
+											Error Handling and Robustness: The script includes checks to ensure that source files exist before attempting to move them and prints informative messages if any issues are encountered. It also uses os.makedirs with exist_ok=True to create destination folders safely, ensuring that the script can run without errors even if the folders already exist.
+										</li>
+									</ul>
+								</p>
+								
+							</div>
+							
+							
+							
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				
+			</section>
+			
+			
+			<div class='footer bg-lightgray section-block' >
+					
+					<div class='container' >
+						
+						<div class='row' >
+							
+							<div class='col-xs-6 text-left' >
+								<h4>Nour Benzahra</h4>
+							</div>
+							
+							<div class='col-xs-6 text-right' >
+								<ul class='footer-social' >
+									<li>
+										<a href='https://www.facebook.com/profile.php?id=61552183670722' target="_blank" >
+											<i class='ion-social-facebook' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://x.com/n0ur_err/likes' target="_blank" >
+											<i class='ion-social-twitter' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.instagram.com/nour._err/' target="_blank" >
+											<i class='ion-social-instagram' ></i>
+										</a>
+									</li>
+									<li>
+										<a href='https://www.youtube.com/channel/UC1WfdjykXObXAN3HfiH-w6Q' target="_blank" >
+											<i class='ion-social-youtube' ></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+							
+						</div>
+						
+						
+					</div>
+					
+				</div>
+			
+			
+			
+		</div>
+		
+		<script src='../../js/jquery.min.js' ></script>
+		<script src='../../js/jquery.stellar.min.js' ></script>
+		<script src='../../js/modernizr.js' ></script>
+		<script src='../../js/owl.carousel.min.js' ></script>
+		<script src='../../js/jquery.shuffle.min.js' ></script>
+		<script src='../../js/jquery.magnific-popup.min.js' ></script>
+		<script src='../../js/validator.min.js' ></script>
+		<script src='../../js/smoothscroll.js' ></script>
+		<script src='../../js/script.js' ></script>
+		
+	</body>
+	
+</html>
