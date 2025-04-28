@@ -8,7 +8,7 @@
 				
 		<title>Air Writing</title>
 
-		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap-theme.css.map' >
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
@@ -71,7 +71,7 @@
 									
 									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
 									
-									<p>2025, April</p>
+									<p>2024, December</p>
 									
 								</li>
 								
@@ -96,7 +96,7 @@
 							
 							<h4>Info</h4>
 							<p>
-                                Air Writing is a computer vision application that transforms hand gestures into digital drawings. This innovative tool uses your webcam to track hand movements and allows you to draw in the air without physical touch interfaces. The application uses MediaPipe's hand tracking technology to detect and track hand landmarks in real-time.
+                                Air Writing is a computer vision project that allows users to write in the air using their finger. The application uses OpenCV and MediaPipe to track hand movements and translate them into digital text on screen. Users can draw letters, numbers, or simple shapes in the air, and the system recognizes and displays them in real-time. This contactless writing system offers an innovative way to interact with computers without physical input devices.
 							</p>
 							
 						</div>
@@ -107,17 +107,21 @@
 							<div class='col-md-6' >
 								
 								<h4>The Challenge</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Accurately tracking hand movements in different lighting conditions
+                                            Accurately tracking fingertip movements through 3D space with a 2D camera
 										</li>
 										<li>
-                                            Creating smooth drawing lines from gesture movements
+                                            Differentiating between intentional writing gestures and unintended hand movements
 										</li>
 										<li>
-                                            Designing intuitive gesture controls for drawing and erasing
+                                            Creating a responsive system that works in varying lighting conditions and backgrounds
 										</li>
+                                        <li>
+                                            Translating continuous hand motion into discrete characters or shapes
+                                        </li>
 									</ul>
 								</p>
 								
@@ -127,17 +131,21 @@
 							<div class='col-md-6' >
 								
 								<h4>The Solution</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Implemented MediaPipe's hand tracking for robust finger position detection
+                                            Implemented MediaPipe's hand tracking solution to accurately detect hand landmarks
 										</li>
 										<li>
-                                            Created a smoothing algorithm for natural-looking drawing strokes
+                                            Created a gesture-based activation system using the distance between thumb and index finger
 										</li>
 										<li>
-                                            Developed simple gesture controls using index finger and thumb positions
+                                            Used adaptive color thresholding techniques to maintain performance across various environments
 										</li>
+                                        <li>
+                                            Developed trajectory analysis algorithms to convert motion paths into recognizable characters
+                                        </li>
 									</ul>
 								</p>
 								
@@ -194,6 +202,8 @@
 					</div>
 					
 				</div>
+			
+			
 			
 		</div>
 		
