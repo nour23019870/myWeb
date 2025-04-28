@@ -8,7 +8,7 @@
 				
 		<title>L1ght Video Downloader</title>
 
-		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap-theme.css.map' >
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
@@ -63,7 +63,7 @@
 									
 									<h4><i class='ion-ionic' ></i>language</h4>
 									
-									<p>Python</p>
+									<p>Python (PyTube, PyQt5)</p>
 									
 								</li>
 								
@@ -71,7 +71,7 @@
 									
 									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
 									
-									<p>2025, February</p>
+									<p>2024, May</p>
 									
 								</li>
 								
@@ -79,7 +79,7 @@
 									
 									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
 									
-									<p>2 weeks</p>
+									<p>10 days</p>
 									
 								</li>
 								
@@ -96,7 +96,7 @@
 							
 							<h4>Info</h4>
 							<p>
-                                L1ght Video Downloader is a sleek, terminal-based YouTube video downloader that combines style with functionality. It downloads videos from YouTube in the highest available quality, with a visually appealing interface featuring animated progress bars and elegant ASCII art. The tool downloads the best video and audio streams separately, then merges them to ensure maximum quality, all while providing a seamless user experience with real-time progress indicators.
+                                L1ght Video Downloader is a desktop application for downloading videos and audio from various online platforms. The tool supports multiple video quality options, batch downloading, playlist extraction, and format conversion. It features a clean, intuitive interface with download progress tracking, speed controls, and customizable output settings. The application respects platform terms of service by using official APIs where available and is designed for personal use of content within fair use guidelines.
 							</p>
 							
 						</div>
@@ -107,16 +107,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Challenge</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Obtaining maximum quality video that exceeds typical single-stream limitations
+                                            Handling various video platforms with different structures and access methods
 										</li>
 										<li>
-                                            Creating an intuitive terminal interface that's both functional and visually appealing
+                                            Managing changing website APIs and ensuring continued functionality
 										</li>
 										<li>
-                                            Managing the complex process of downloading, merging, and cleaning up temporary files
+                                            Creating an efficient download manager with resumable downloads and throttling
+										</li>
+										<li>
+                                            Developing a user-friendly interface that simplifies complex download options
 										</li>
 									</ul>
 								</p>
@@ -127,16 +131,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Solution</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Implemented separate best-quality audio and video stream downloading with automated merging
+                                            Implemented a modular architecture with separate adapters for each supported platform
 										</li>
 										<li>
-                                            Designed a stylish ASCII art interface with animated progress indicators
+                                            Created an update system to automatically refresh platform-specific download methods
 										</li>
 										<li>
-                                            Bundled FFmpeg with the application for seamless media processing without additional dependencies
+                                            Developed a multi-threaded download manager with bandwidth controls and file integrity checks
+										</li>
+										<li>
+                                            Designed an intuitive PyQt5 interface with preset configurations for common download scenarios
 										</li>
 									</ul>
 								</p>
@@ -194,6 +202,8 @@
 					</div>
 					
 				</div>
+			
+			
 			
 		</div>
 		
