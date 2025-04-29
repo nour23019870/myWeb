@@ -6,9 +6,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 				
-		<title>Gesture-Based Media Control System</title>
+		<title>Gesture Media Control</title>
 
-		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap-theme.css.map' >
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
@@ -50,7 +50,7 @@
 						
 						<div class='col-md-8' >
 							
-							<img src='img/gesture_control_demo.png' alt='Gesture-Based Media Control' >
+							<img src='img/img.png' alt='Gesture Media Control' >
 						
 						</div>
 						
@@ -63,7 +63,7 @@
 									
 									<h4><i class='ion-ionic' ></i>language</h4>
 									
-									<p>Python</p>
+									<p>Python (OpenCV, MediaPipe, PyAutoGUI)</p>
 									
 								</li>
 								
@@ -71,7 +71,7 @@
 									
 									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
 									
-									<p>2025, March</p>
+									<p>2024, July</p>
 									
 								</li>
 								
@@ -79,7 +79,7 @@
 									
 									<h4><i class='ion-ios-clock-outline' ></i>Time Taken</h4>
 									
-									<p>3 weeks</p>
+									<p>2 weeks</p>
 									
 								</li>
 								
@@ -96,7 +96,7 @@
 							
 							<h4>Info</h4>
 							<p>
-                                A computer vision application that allows users to control media playback and system volume using hand gestures. Built with Python, OpenCV, and MediaPipe, the application provides intuitive gesture controls for common media tasks, making it possible to interact with your computer without touching a keyboard or mouse. The system features multiple control modes including volume control, media playback control, and a locked mode to prevent accidental inputs.
+                                Gesture Media Control is a hands-free application that enables users to control media playback using simple hand gestures detected through a webcam. Users can play/pause, adjust volume, skip tracks, and seek through videos or music with intuitive gestures. The system works with popular media players and streaming platforms without requiring any additional hardware beyond a standard webcam, making it ideal for situations where touching the keyboard or mouse is inconvenient, such as when cooking, exercising, or relaxing at a distance from the computer.
 							</p>
 							
 						</div>
@@ -107,16 +107,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Challenge</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Creating reliable hand gesture recognition that works in varied lighting conditions
+                                            Recognizing specific hand gestures with high accuracy and minimal false positives
 										</li>
 										<li>
-                                            Designing intuitive gesture mappings that are easy to remember and perform
+                                            Creating a system that works reliably in various lighting conditions and backgrounds
 										</li>
 										<li>
-                                            Integrating with system audio and media controls seamlessly
+                                            Developing intuitive gesture controls that feel natural and are easy to remember
+										</li>
+										<li>
+                                            Ensuring compatibility with different media players and platforms without custom integration
 										</li>
 									</ul>
 								</p>
@@ -127,16 +131,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Solution</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Utilized MediaPipe's robust hand tracking system for accurate gesture detection
+                                            Implemented MediaPipe's hand tracking solution for accurate finger and gesture detection
 										</li>
 										<li>
-                                            Implemented mode-switching functionality to expand the range of possible controls
+                                            Created a gesture detection algorithm that analyzes the relationships between hand landmarks
 										</li>
 										<li>
-                                            Integrated PyCaw and system APIs for reliable media control with visual feedback
+                                            Designed a simple and intuitive gesture vocabulary with visual feedback to help users learn
+										</li>
+										<li>
+                                            Used PyAutoGUI to simulate media control hotkeys, ensuring compatibility with most media applications
 										</li>
 									</ul>
 								</p>
@@ -194,6 +202,8 @@
 					</div>
 					
 				</div>
+			
+			
 			
 		</div>
 		
