@@ -6,9 +6,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 				
-		<title>Emotion Recognition System</title>
+		<title>Emotion Recognition</title>
 
-		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap-theme.css.map' >
+		<link rel='stylesheet' type='text/css' href='../../bootstrap/css/bootstrap.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/ionicons.min.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.carousel.css' >
 		<link rel='stylesheet' type='text/css' href='../../css/owl.theme.css' >
@@ -50,7 +50,7 @@
 						
 						<div class='col-md-8' >
 							
-							<img src='img/img.jpg' alt='Emotion Recognition System' >
+							<img src='img/img.jpg' alt='Emotion Recognition' >
 						
 						</div>
 						
@@ -63,7 +63,7 @@
 									
 									<h4><i class='ion-ionic' ></i>language</h4>
 									
-									<p>Python</p>
+									<p>Python (TensorFlow, Keras, OpenCV)</p>
 									
 								</li>
 								
@@ -71,7 +71,7 @@
 									
 									<h4><i class='ion-ios-calendar-outline' ></i>Date</h4>
 									
-									<p>2025, January</p>
+									<p>2024, August</p>
 									
 								</li>
 								
@@ -96,7 +96,7 @@
 							
 							<h4>Info</h4>
 							<p>
-                                A real-time facial emotion recognition system powered by CNN, OpenCV, and GPU acceleration. The application detects faces in video streams and classifies emotions into seven categories: angry, disgust, fear, happy, neutral, sad, and surprise. The system features an interactive GUI with a probability dashboard showing real-time classifications and emotional state analysis.
+                                Emotion Recognition is an AI-powered application that detects and analyzes human emotions from facial expressions in real-time using computer vision and deep learning. The system can identify seven primary emotional states: happiness, sadness, anger, fear, surprise, disgust, and neutral. It works with live video feeds from webcams or with uploaded images and videos, providing instant feedback on detected emotions with confidence percentages. This technology has applications in market research, user experience testing, mental health monitoring, and interactive media.
 							</p>
 							
 						</div>
@@ -107,16 +107,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Challenge</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Building a CNN model capable of accurately detecting seven distinct emotional states
+                                            Accurately detecting subtle facial expressions that indicate different emotional states
 										</li>
 										<li>
-                                            Optimizing the application for real-time performance in video streams
+                                            Building a model that works consistently across different lighting conditions and face angles
 										</li>
 										<li>
-                                            Creating an intuitive visualization of emotion probabilities for users
+                                            Processing video frames fast enough to provide real-time emotion analysis
+										</li>
+										<li>
+                                            Creating a large, diverse, and balanced dataset for training the neural network
 										</li>
 									</ul>
 								</p>
@@ -127,16 +131,20 @@
 							<div class='col-md-6' >
 								
 								<h4>The Solution</h4>
+								
 								<p>
 									<ul>
 										<li>
-                                            Developed a specialized CNN architecture with batch normalization for emotion classification
+                                            Implemented a two-stage pipeline: first detecting faces, then analyzing facial features for emotions
 										</li>
 										<li>
-                                            Implemented GPU acceleration to achieve real-time processing performance
+                                            Used a convolutional neural network (CNN) architecture optimized for facial feature extraction
 										</li>
 										<li>
-                                            Created a real-time bar chart visualization system with Matplotlib for displaying emotion probabilities
+                                            Applied data augmentation and transfer learning to improve model performance with limited training data
+										</li>
+										<li>
+                                            Optimized inference performance using model quantization and hardware acceleration techniques
 										</li>
 									</ul>
 								</p>
@@ -194,6 +202,8 @@
 					</div>
 					
 				</div>
+			
+			
 			
 		</div>
 		
